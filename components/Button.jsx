@@ -8,7 +8,7 @@ export default function Button({ label, theme, onPress }) {
         style={[styles.buttonContainer, { borderWidth: 4, borderColor: "#78c97e", borderRadius: 18 }]}
       >
         <Pressable
-          style={[styles.button, { backgroundColor: "#fff" }]}
+          style={[styles.button, { backgroundColor: "#eaefe0" }]}
           onPress={onPress}
         >
           <FontAwesome
